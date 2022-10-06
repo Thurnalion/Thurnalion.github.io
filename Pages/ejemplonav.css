@@ -24,7 +24,7 @@ label.logo{
 }
 
 
-.container-fluid{
+.navbar navbar-expand-lg bg-light{
     display: flex;
     flex-flow: row wrap;
     background: #363062;

@@ -377,35 +377,35 @@ footer{
 
 /*Contacto*/
 
-.maincontacto{
-    height: auto;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: #EEF1FF; 
-    font-family: sans-serif;
-}
+    .maincontacto{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #EEF1FF; 
+        font-family: sans-serif;
+    }
 
 
-.h1contacto{
-    margin-top: 5vh;
-    margin-left: 10vh;
-    color: #871f78;
-    font-size: 16px;
-    display: flex;
-    flex-flow: column;
-}
+    .h1contacto{
+        margin-top: 5vh;
+        margin-left: 10vh;
+        color: #871f78;
+        font-size: 16px;
+        display: flex;
+        flex-flow: column;
+    }
 
-.footercontacto{
-    width: 100%;
-    padding: 30px 20px;
-    background-color: #4D4C7D;
-    margin: 0 auto;  
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    gap: 30px;
-}
+    .footercontacto{
+        width: 100%;
+        padding: 30px 20px;
+        background-color: #4D4C7D;
+        margin: 0 auto;  
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        gap: 30px;
+    }
 
 
 
@@ -420,10 +420,22 @@ footer{
 
 @media (max-width: 768px){
     .h1acerca{
-        display: flex;
-        margin-top: 15vh;
+        margin-top: 30vh;
+        font-size: 15px;
+    }
+    .h2acerca{
+        margin-top: 20vh;
+        font-size: 12px;
     }
 }
+
+/*
+@media (max-width: 768px){
+    .h2acerca{
+        
+        margin-top: 20vh;
+    }
+}*/
 
 @media (max-width: 768px){
     .ul li{
