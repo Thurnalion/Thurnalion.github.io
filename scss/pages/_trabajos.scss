@@ -1,0 +1,27 @@
+.hojatrabajos{
+    background-color:#dbe1fb;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: minmax(200px, auto);
+    gap: 40px;
+    padding: 20px;
+    line-height: 20px;
+    
+}
+
+.h1trabajos{
+    
+    margin: 20px; 
+    color: #871f78;
+    font-size: 15px;
+    
+}
+
+.fotocard4{
+    max-width: auto;
+    object-fit: contain;
+}
+
+.textotrabajos{
+    margin-top: 10px;
+}

@@ -1,0 +1,458 @@
+@import "pages/index";
+@import "pages/acerca";
+@import "pages/trabajos";
+@import "pages/proceso";
+@import "pages/contacto";
+
+@import "layout/navbar";
+@import "layout/footer";
+
+@import "components/variables";
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+/*
+.nav{
+    display: flex;
+    flex-flow: row wrap;
+    background: #363062;
+    width: 100%;
+    justify-content: space-between;
+    
+
+    &__logo{
+        font-family: monntserrat;
+        color: #e9d5ca;
+        font-size: 55px;
+        line-height: 80px;
+        padding: 0 100px;
+        font-weight: bold;
+    }
+
+    .ul{
+        float: right;
+        margin-right: 50px;
+        display: flex;
+        list-style: none;
+        
+        .li{
+            display: inline-block;
+            line-height: 80px;
+            padding: 0 7px;
+                
+            .sombreado:hover{
+                background-color: #4D4C7D;
+                transition: 0.5s;
+                padding: 4px 4px;
+                border-radius: 3px;
+            }
+
+            .sombreado{
+                text-decoration: none;
+                color: #e9d5ca;
+                font-size: 18px;
+            } 
+
+        }   
+    }
+}
+
+
+main{
+    background-color: #EEF1FF; 
+    font-family: sans-serif;
+}
+
+
+
+.titulo{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: 1000;
+    color: #871f78;
+}
+
+.articulos{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.article1{
+    background-color: bisque;
+    margin: 10px;
+    width: 30%;
+    height: 150px;
+    min-width: 300px;
+    border-radius: 8px;
+}
+
+.article2{
+    background-color: bisque;
+    margin: 10px;
+    width: 30%;
+    height: 150px;
+    min-width: 300px;
+    border-radius: 8px;
+}
+
+.article3{
+    background-color: bisque;
+    margin: 10px;
+    width: 30%;
+    height: 150px;
+    min-width: 300px;
+    border-radius: 8px;
+}
+
+.titulocarta{
+    font-size: 25px;
+    margin: 5px;
+    text-align: center;   
+}
+
+.textocarta{
+    margin: 1em;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer{
+    font-family: montserrat;
+    width: 100%;
+    height: 20vh;
+    padding: 30px 20px;
+    background-color: #4D4C7D;
+    margin: 0 ;  
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+    
+}
+
+.fb{
+    font-size: 20px;
+    color: #e9d5ca;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.social{
+    font-size: 18px;
+    color: #e9d5ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.redes a{
+    font-size: 18px;
+    color: #e9d5ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactofooter{
+    color: #e9d5ca;
+    
+}
+*/ 
+
+/*
+@media (max-width: 768px){
+    .ul li{
+        display:flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+    .redes{
+        align-items: center;
+        
+    }
+}
+
+@media (max-width: 667px){
+    .article1, .article2, .article3{
+        margin: 20px;
+      
+        height: 130px;
+    }
+}
+
+@media (max-width: 667px){
+    .titulo {
+        font-size: 30px;
+        margin: 2px;
+    }
+}
+
+@media (max-width: 667px){
+    .titulocarta{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 667px){
+    .textocarta{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 667px){
+    
+}
+*/ 
+
+
+/*acerca*/
+/*
+.h1acerca{
+    margin: 15px;
+    margin-top: 20px;
+    color: #871f78;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.hojaacerca{
+    background-color:#dbe1fb;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 45% 45%;
+    gap: 8px;
+    font-size: 10px;
+}
+
+
+.slider{
+   
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin: 8px;
+    
+}
+
+.h2acerca{
+    font-size: 25px;
+}
+*/
+
+@media (max-width: 667px){
+
+    .hojaacerca{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .h1acerca  {
+        margin-top: 8vh;
+        
+    }
+    .h2acerca{
+        margin: 15px;
+        margin-bottom: 5vh;
+        font-size: 16px;
+    }
+}
+
+
+
+
+/* Trabajos
+
+
+.hojatrabajos{
+    background-color:#dbe1fb;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: minmax(200px, auto);
+    gap: 40px;
+    padding: 20px;
+    line-height: 20px;
+    
+}
+
+.h1trabajos{
+    
+    margin: 20px; 
+    color: #871f78;
+    font-size: 15px;
+    
+}
+
+.fotocard4{
+    max-width: auto;
+    object-fit: contain;
+}
+
+.textotrabajos{
+    margin-top: 10px;
+}
+
+*/
+
+@media (max-width: 667px){
+    .h1trabajos{
+        text-align: center;
+    }
+}
+
+
+/*Proceso
+
+.mainproceso{
+    margin: 2vh;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #dbe1fb;
+    font-family: sans-serif;
+}
+
+.h1proceso{
+    margin-top: 30px;
+    text-align: center;
+    color: #871f78;
+    font-size: 18px;
+    display: flex;
+    flex-flow: column;
+    
+}
+
+.textoproceso{
+    margin: 5vh;
+    margin-left: 10vh;
+    display: flex;
+    flex-flow: column;
+    font-size: 21px;
+}
+
+.fotosproceso{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.primerafotoproceso{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    max-width: 500px;
+    margin: 5vh;
+}
+
+.segundafotoproceso{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    max-width: 500px;
+    margin: 5vh;
+}
+*/
+
+/*Contacto*/
+
+/*
+.h1contacto{
+        margin: 5vh;
+    
+        color: #871f78;
+        font-size: 25px;
+        text-align: center;
+        display: flex;
+        flex-flow: column;
+}
+
+.maincontacto{
+    margin: 2vh;
+    background-color:#dbe1fb;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+
+
+    &__foto{
+        position: relative;
+        display: flex;
+        max-width: 60%;
+        max-height: 60%;
+                    
+    }
+
+    &__cartacontacto{
+        text-align: center;
+        position: absolute;
+        font-size: 18px;
+        background-color:#e9d5ca;
+        padding: 10px 20px;
+        margin-left: 3vw;
+        margin-right: 43vw;
+        line-height: 28px;
+        border-radius: 10px;
+        
+    }
+    
+
+    &__form{
+        width: 340px;
+        height: 440px;
+        background-color: #e9d5ca;
+        border-radius: 10px;
+        box-shadow: 0 0 40px -25px #000;
+        margin: 5vw 10vh;
+
+        &__titulo{
+            color: #363062;
+            font-size: 55px;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        &__completar{
+            margin: 10px;
+                
+        }
+
+        &__cajas{
+            display: block;
+            width: 40px;
+        }
+
+        &__button{
+            margin: 10px;
+        }
+    }
+    
+}*/ 
+
+
+
+
+
+

@@ -4,65 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
     <title>F.Boujon</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-   
-    <div class="hojaacerca">
-        <header class="headeracerca">
-            <nav class="nav">
-                <label class="logo">FB</label>
-                <ul>
-                    <li class="animacion">
-                        <a href="Index.html" class="sombreado">Home</a>
-                    </li>
-                    <li class="animacion">
-                        <a href="Acerca.html" class="sombreado">Acerca</a>
-                    </li>
-                    <li class="animacion">
-                        <a href="Trabajos.html" class="sombreado">Trabajos</a>
-                    </li>
-                    <li class="animacion">
-                        <a href="Proceso.html" class="sombreado">Proceso</a>
-                    </li>
-                    <li class="animacion">
-                        <a href="Contacto.html" class="sombreado">Contacto</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+    <nav class="nav">
+        <label class="nav__logo">
+            FB
+        </label>
+        <ul class="ul">
+            <li class="li">
+                <a href="Index.html" class="sombreado">Home</a>
+            </li>
+            <li class="li">
+                <a href="Acerca.html" class="sombreado">Acerca</a>
+            </li>
+            <li class="li">
+                <a href="Trabajos.html" class="sombreado">Trabajos</a>
+            </li>
+            <li class="li">
+                <a href="Proceso.html" class="sombreado">Proceso</a>
+            </li>
+            <li class="li">
+                <a href="Contacto.html" class="sombreado">Contacto</a>
+            </li>
+        </ul>
+    </nav>
 
     
-        <div class="h1acerca">
-            <h1>Nosotros</h1>
+
+    <div class="h1acerca">
+        <h1>Nosotros</h1>
+    </div>
+
+    <div class="hojaacerca">
+        <div class="slider">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="../fotos/151515.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="../fotos/161616.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../fotos/171717.jpg" class="d-block w-100" alt="...">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
 
         <div class="h2acerca">
-            <h2>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-            pariatur. Excepteur sint occaecat.
-            </h2>
+                Somos una empresa que se dedica a la proyección, 
+                dirección y construcción de obras de arquitectura,
+                particulares o públicas, brindando una amplia gama 
+                de respuestas a todo tipo de proyecto planteado. 
         </div>
 
-        <div class="segundafoto">
-            <img src="../fotos/222.jpg">
+        <div class="h2acerca">
+                Nuestro esquema de trabajo aborda de forma conjunta 
+                con el cliente, a fin de que prevalezca su impronta
+                y deseos en un marco de factibilidad técnica, 
+                económica y ambiental.
         </div>
-
-        <div class="tercerafoto">
-            <img src="../fotos/999.jpg">
-        </div>
-
-        <div class="cuartafoto">
-            <img src="../fotos/101010.jpg" alt="">
-        </div>
-
-
-    <footer class="footeracerca">
+    </div>
+    
+    <footer class="footer">
         <div class="fb">
             <h2>FB Fabiana Boujon</h2>
         </div>
@@ -77,15 +94,14 @@
                 <li><a href="">Pinterest</a></li>
              </ul>
         </div>
-
         <div class="contactofooter">
             Dirección: Gral. Bernardo O´Higgins 1509
             Telefono: 1555682082
             Email: fboujon@gmail.com
         </div>
-        
-    </footer>
-    </div>
 
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>

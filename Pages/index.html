@@ -12,138 +12,131 @@
     
 </head>
 <body>
-    <nav class="nav">
-        <label class="logo">FB</label>
-            <ul>
-                <li class="animacion">
-                <a href="Index.html" class="sombreado">Home</a>
-                 </li>
-                 <li class="animacion">
-                <a href="Acerca.html" class="sombreado">Acerca</a>
-                 </li>
-                 <li class="animacion">
-                <a href="Trabajos.html" class="sombreado">Trabajos</a>
-                 </li>
-                 <li class="animacion">
-                <a href="Proceso.html" class="sombreado">Proceso</a>
-                 </li>
-                 <li class="animacion">
-                <a href="Contacto.html" class="sombreado">Contacto</a>
-                 </li>
-             </ul>
-    </nav>
+  <nav class="nav">
+    <label class="nav__logo">
+      FB
+    </label>
+    <ul class="ul">
+      <li class="li">
+        <a href="Index.html" class="sombreado">Home</a>
+      </li>
+      <li class="li">
+        <a href="Acerca.html" class="sombreado">Acerca</a>
+      </li>
+      <li class="li">
+        <a href="Trabajos.html" class="sombreado">Trabajos</a>
+      </li>
+      <li class="li">
+        <a href="Proceso.html" class="sombreado">Proceso</a>
+      </li>
+      <li class="li">
+        <a href="Contacto.html" class="sombreado">Contacto</a>
+      </li>
+    </ul>
+  </nav>
 
-    <main class="main">
+    
 
-        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="../fotos/111.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Desde 2008</h5>
-                  <p>A la par de la vanguardia</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="../fotos/111111.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Interiores</h5>
-                  <p>Profesionales distinguidos en distintos estilos</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="../fotos/121212.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Construcción</h5>
-                  <p>Haciendo posible tu sueño</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+  <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="../fotos/111.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Desde 2008</h5>
+            <p>A la par de la vanguardia</p>
           </div>
-
-        <!--
-        <div class="primerafoto">
-            <img src="../fotos/111.jpg">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="../fotos/111111.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Interiores</h5>
+            <p>Profesionales distinguidos en distintos estilos</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../fotos/121212.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Construcción</h5>
+          <p>Haciendo posible tu sueño</p>
         </div>
-        -->
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-       
+  <div class="titulo">
+    <p>Un poco acerca de lo que hacemos</p>
+  </div>
 
-        <div class="titulo">
-            <p>Un poco acerca de lo que hacemos</p>
+  <section class="section">   
+    <div class="articulos">
+      <article class="article1">
+        <div class="titulocarta">
+          Asesoramiento
         </div>
-
-        <section class="section">   
-            <div class="articulos">
-                <article class="article1">
-                    <div class="titulocarta">
-                        Asesoramiento
-                    </div>
-                    <p class="textocarta">
-                    Podemos asesorarte en la compra del terreno
-                    evaluando la inverción.
-                    </p>
-                </article>
-            
-                <article class="article2">
-                    <div class="titulocarta">
-                        Planeamiento
-                    </div>
-                    <p class="textocarta">
-                    Trabajamos sobre estilo y diseño buscando la
-                    conbinación ideal entre los materiales
-                    </p>
-                </article>
-
-                <article class="article3">
-                    <div class="titulocarta">
-                        Producción
-                    </div>
-                    <p class="textocarta">
-                    Cuidamos el paso a paso de la ejecución 
-                    del proyecto cumpliendo con los tiempos establecidos
-                    </p>
-                </article>
-            </div>
-        </section> 
-    </main>
-
-    <footer class="footer">
-        <div class="fb">
-            <h2>FB Fabiana Boujon</h2>
+        <p class="textocarta">
+          Podemos asesorarte en la compra del terreno
+          evaluando la inverción.
+        </p>
+      </article>     
+      <article class="article2">
+        <div class="titulocarta">
+          Planeamiento
+        </div>            
+         <p class="textocarta">
+            Trabajamos sobre estilo y diseño buscando la
+            conbinación ideal entre los materiales
+          </p>           
+      </article>
+      <article class="article3">
+        <div class="titulocarta">
+          Producción
         </div>
+        <p class="textocarta">
+          Cuidamos el paso a paso de la ejecución 
+          del proyecto cumpliendo con los tiempos establecidos
+        </p>
+      </article>
+    </div>
+  </section> 
+   
+  
+  <footer class="footer">
+    <div class="fb">
+      <h2>FB Fabiana Boujon</h2>
+    </div>
 
-        <div class="social">
-            <p class="titulosocial">
-                Social
-            </p>
-            <ul class="redes">
-                <li><a href="">Facebook</a></li>
-                <li><a href="">Instagram</a></li>
-                <li><a href="">Pinterest</a></li>
-             </ul>
-        </div>
+    <div class="social">
+      <p class="titulosocial">
+        Social
+      </p>
+      <ul class="redes">
+        <li><a href="">Facebook</a></li>
+        <li><a href="">Instagram</a></li>
+        <li><a href="">Pinterest</a></li>
+      </ul>
+    </div>
 
-        <div class="contactofooter">
-            <li>Dirección: Gral. Bernardo O´Higgins 1509</li>
-            <li>Telefono: 1555682082</li>
-            <li>Email: fboujon@gmail.com</li>
-        </div>
-        
-    </footer>
+    <div class="contactofooter">
+      <li>Dirección: Gral. Bernardo O´Higgins 1509</li>
+      <li>Telefono: 1555682082</li>
+      <li>Email: fboujon@gmail.com</li>
+    </div>       
+  </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <!--<script src="../js/bootstrap.bundle.min.js"></script>-->
 

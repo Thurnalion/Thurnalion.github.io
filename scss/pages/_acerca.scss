@@ -1,0 +1,36 @@
+
+ $color-fondo: #dbe1fb;
+
+
+
+.h1acerca{
+    margin: 15px;
+    margin-top: 20px;
+    color: #871f78;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.hojaacerca{
+    background-color: $color-fondo;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 45% 45%;
+    gap: 8px;
+    font-size: 10px;
+}
+
+
+.slider{
+   
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin: 8px;
+    
+}
+
+.h2acerca{
+    margin-top: 7vh;
+    font-size: 25px;
+}

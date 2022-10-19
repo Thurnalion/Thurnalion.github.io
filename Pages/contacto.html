@@ -11,42 +11,63 @@
    
     <header>
     <nav class="nav">
-        <label class="logo">FB</label>
-        <ul>
-            <li class="animacion">
+        <label class="nav__logo">FB</label>
+        <ul class="ul">
+            <li class="li">
                 <a href="Index.html" class="sombreado">Home</a>
             </li>
-            <li class="animacion">
+            <li class="li">
                 <a href="Acerca.html" class="sombreado">Acerca</a>
             </li>
-            <li class="animacion">
+            <li class="li">
                 <a href="Trabajos.html" class="sombreado">Trabajos</a>
             </li>
-            <li class="animacion">
+            <li class="li">
                 <a href="Proceso.html" class="sombreado">Proceso</a>
             </li>
-            <li class="animacion">
+            <li class="li">
                 <a href="Contacto.html" class="sombreado">Contacto</a>
             </li>
         </ul>
     </nav>
     </header>
 
+    
+    <div class="h1contacto">
+        <h1>Contactanos</h1>
+    </div>
+    
     <main class="maincontacto">
-        <div class="h1contacto">
-            Contacto
-        </div>
-            <p class="textocontacto1">
+        <img src="../fotos/181818.jpg" class="maincontacto__foto">
+        <div class="maincontacto__cartacontacto">
+            <p>
                 Para comunicarse por mail, puede hacerlo a través de la siguiente dirección:
                 fabianaboujon@gmail.com
             </p>
-
-            <p class="textocontacto2">
+            <p>
                 También puede utilizar el siguiente formulario para el pedido de presupuestos y nosotros nos pondremos en contacto:
             </p>
-    </main>
+        </div>
+        
     
-    <footer class="footercontacto">
+        <form class="maincontacto__form">
+            <h2 class="maincontacto__titulo">
+                Contacto
+            </h2>
+            <div class="maincontacto__cajas">
+                <p type="Nombre" class="maincontacto__completar"><input placeholder="Nombre y Apellido"></p>
+                <p type="Email" class="maincontacto__completar"><input placeholder="Su email"></p>
+                <p type="Mensaje" class="maincontacto__completar"><input placeholder="Escribanos su consulta"></p>
+            </div>
+
+            <button class="maincontacto_button">
+                Enviar
+            </button>
+        </form>
+
+    </main>
+
+    <footer class="footer">
         <div class="fb">
             <h2>FB Fabiana Boujon</h2>
         </div>
@@ -63,9 +84,9 @@
         </div>
 
         <div class="contactofooter">
-            Dirección: Gral. Bernardo O´Higgins 1509
-            Telefono: 1555682082
-            Email: fboujon@gmail.com
+            <li>Dirección: Gral. Bernardo O´Higgins 1509</li>
+            <li>Telefono: 1555682082</li>
+            <li>Email: fboujon@gmail.com</li>
         </div>
         
     </footer>
