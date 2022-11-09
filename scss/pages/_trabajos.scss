@@ -1,5 +1,6 @@
 .hojatrabajos{
-    background-color:#dbe1fb;
+    margin: 2vh;
+    background-color: var(--coloruno);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: minmax(200px, auto);
@@ -12,7 +13,7 @@
 .h1trabajos{
     
     margin: 20px; 
-    color: #871f78;
+    color: var(--colordos);
     font-size: 15px;
     
 }
@@ -24,4 +25,10 @@
 
 .textotrabajos{
     margin-top: 10px;
+}
+
+@media (max-width: 667px){
+    .h1trabajos{
+        text-align: center;
+    }
 }

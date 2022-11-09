@@ -1,19 +1,16 @@
 
- $color-fondo: #dbe1fb;
-
-
-
 .h1acerca{
     margin: 15px;
     margin-top: 20px;
-    color: #871f78;
+    color: var(--colordos);
     text-align: center;
     font-size: 40px;
     
 }
 
 .hojaacerca{
-    background-color: $color-fondo;
+    margin: 2vh;
+    background-color: var(--coloruno);
     display: grid;
     grid-template-columns: 45% 45%;
     grid-template-rows: 45% 45%;
@@ -34,3 +31,23 @@
     margin-top: 7vh;
     font-size: 25px;
 }
+
+@media (max-width: 667px){
+
+    .hojaacerca{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .h1acerca  {
+        margin-top: 8vh;
+        
+    }
+    .h2acerca{
+        margin: 15px;
+        margin-bottom: 5vh;
+        font-size: 16px;
+    }
+}
+
+

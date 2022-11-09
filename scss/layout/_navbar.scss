@@ -1,3 +1,27 @@
+
+
+.nav-link:hover{
+    transition: 0.5s;
+    background-color: #4D4C7D;
+    padding: 8px 8px;
+    border-radius: 3px;
+}
+
+.navbar{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
 .nav{
     display: flex;
     flex-flow: row wrap;
@@ -76,3 +100,5 @@
 @media (max-width: 667px){
     
 }
+
+*/

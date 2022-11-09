@@ -1,10 +1,7 @@
 
-/* CONTACTO */
-
 .h1contacto{
     margin: 5vh;
-
-    color: #871f78;
+    color: var(--colordos);
     font-size: 25px;
     text-align: center;
     display: flex;
@@ -13,7 +10,7 @@
 
 .maincontacto{
 margin: 2vh;
-background-color:#dbe1fb;
+background-color: var(--coloruno);
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
@@ -33,7 +30,7 @@ align-items: center;
     text-align: center;
     position: absolute;
     font-size: 18px;
-    background-color:#e9d5ca;
+    background-color: var(--colortres);
     padding: 10px 20px;
     margin-left: 3vw;
     margin-right: 43vw;
@@ -46,35 +43,76 @@ align-items: center;
 &__form{
     width: 340px;
     height: 340px;
-    background-color: #e9d5ca;
+    background-color: var(--colortres);
     border-radius: 10px;
-    box-shadow: 0 0 40px -25px #000;
+    box-shadow: 0 0 30px -25px #000;
     margin: 5vw 10vh;
+    box-sizing: border-box;
+    position: relative;
+    
     }
 
     &__titulo{
         color: #363062;
         font-size: 35px;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 20px;
         margin-bottom: 10px;
     }
 
-    &__completar{
-        margin: 10px;
-        
+    &__casilleros{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
     }
 
-    &__cajas{
-        display: block;
-        width: 100%;
+    &__completar{
+        width: 90%;
+        height: 30px;
+        margin: 1vh 1vw;
+        border: 0.5px;
+        font-size: 10px;
+      
+    }
+
+    &__consulta{
+        width: 90%;
+        height: 22vh;
+        margin: 1vh 1vw;
     }
 
     &__button{
+        width: 50%;
         
-        margin: 10px;
     }
 }
+
+@media (max-width: 1250px){
+    .maincontacto{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        margin: 10px;
+
+        &__foto{
+            margin-top: 4vh;
+            min-width: 80vw;
+            min-height: 40vh;
+            align-items: center;
+        }
+
+        &__cartacontacto{
+            margin: 20px;
+            padding: 5px 10px;
+            font-size: 18px;
+            line-height: 20px;
+            position: relative;            
+        }
+
+    }
+}
+
+
 
 @media (max-width: 667px){
     .maincontacto{
@@ -93,17 +131,35 @@ align-items: center;
         &__cartacontacto{
             margin: 20px;
             padding: 5px 10px;
-            font-size: 10px;
+            font-size: 13px;
             line-height: 20px;
-            position: relative;
-            
-
+            position: relative;            
         }
 
         &__form{
-            width: 240px;
-            height: 240px;
+            width: 440px;
+            height: 360px;
+            position: relative;
+
+            &__titulo{
+                font-size: 25px;
+            }
+
+            &__completar{
+                height: 20px;
+            }
         }
     }
 
+}
+
+@media (max-width: 550px){
+    .maincontacto{
+    
+        &__form{
+            width: 400px;
+            height: 330px;
+            position: relative;
+        }
+    }
 }
